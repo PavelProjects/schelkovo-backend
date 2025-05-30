@@ -7,4 +7,4 @@ app:
     username: ${ADMIN_USERNAME:admin}
     password: ${ADMIN_PASSWORD:admin}
   token:
-    ttl: ${JWT_TOKEN_TTL}
+    ttl: ${JWT_TOKEN_TTL:3600}
